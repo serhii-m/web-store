@@ -1,0 +1,21 @@
+.cart-heading {
+    color: midnightblue;
+    text-align: center;
+}
+
+.cart-wrapper {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cart-item {
+    height: 26rem;
+    max-height: 26rem;
+    margin: 5px;
+}
+.cart-item:hover, .cart-item:focus {
+    transform: none !important;
+}

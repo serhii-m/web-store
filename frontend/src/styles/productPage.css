@@ -1,0 +1,26 @@
+.prod-wrapper {
+    padding-top: 7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center-all {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-align-item-center {
+    display: flex;
+    align-items: center;
+}
+
+.product-image {
+    object-fit: contain;
+    object-position: center;
+}
+
+.product-card:hover, .product-card:focus {
+    transform: none !important;
+}

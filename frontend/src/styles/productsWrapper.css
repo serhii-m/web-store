@@ -1,0 +1,59 @@
+.sellers-heading {
+    margin: 1rem 0 0 1.5rem;
+    color: gold;
+}
+
+.best-sellers {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bs-counter {
+    color: gold;
+    font-weight: 700;
+}
+
+.productsWrapper {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 32rem;
+    max-height: 32rem;
+    margin: 5px;
+}
+
+.card:hover, .card:focus {
+    transform: scale(1.03);
+    z-index: 100;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 260px;
+    object-fit: scale-down;
+    object-position: center;
+    padding-top: 0.5rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+.card-subtitle {
+    color: #000;
+    font-weight: 700;
+}
+
+.card-text {
+    height: 100%;
+}

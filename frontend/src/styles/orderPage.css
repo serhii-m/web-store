@@ -1,0 +1,10 @@
+.checkout-header {
+    text-align: center;
+    color: midnightblue;
+}
+
+.order-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,46 @@
+.itemsWrapper {
+    min-width: 20rem;
+}
+
+.accordion-header button {
+    background: linear-gradient(45deg, #00aecb, #0b91d9);
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.accordion-header button::after {
+    background-color: #fff !important;
+}
+
+.accordion-button {
+    background-color: #bdbdbd;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #bdbdbd;
+    color: #000;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 3px #fff;
+}
+
+.accordion-body {
+    background-color: aliceblue;
+}
+
+.accordion-collapse {
+}
+
+.accordion-collapse.collapse {
+    background-color: #bdbdbd;
+}
+
+.accordion-collapse.collapse.show {
+    background-color: #bdbdbd;
+    color: #000;
+}
+
+
+

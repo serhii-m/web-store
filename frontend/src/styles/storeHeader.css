@@ -1,0 +1,27 @@
+.store-container {
+    width: 100%;
+    display: flex;
+    padding-top: 5rem;
+}
+
+.store-header {
+    background: linear-gradient(360deg, #00aecb, #0b91d9);
+}
+
+.cart-btn:hover, .cart-btn:focus {
+    background: lightgrey;
+}
+
+.cart-counter {
+    position: relative;
+    left: -1rem;
+    top: -1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: white;
+    background: forestgreen;
+    border-radius: 50%;
+}
