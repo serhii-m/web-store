@@ -1,4 +1,4 @@
-# my-web-store
+# web-store
 
 ## Start Up Guide
 
